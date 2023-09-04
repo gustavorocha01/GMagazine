@@ -97,7 +97,8 @@ export const catalogo = [
         'rounded-lg',
         'p-1',
         'relative',
-        'mb-2', 
+        'mb-2',
+        'w-96', 
       ];
       for (const articleClass of articleClasses){
         elementoArticle.classList.add(articleClass);
