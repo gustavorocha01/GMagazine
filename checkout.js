@@ -30,8 +30,7 @@ const historicoDePedidosAtualizado = [pedidoFeito, ...historicoDePedidos];
 
 salvarLocalStorage('historico', historicoDePedidosAtualizado);
 apagarDoLocalStorage('carrinho');
-
-window.location.href = "/pedidos.html";
+window.location.href = "./pedidos.html";
 }
 
 desenharProdutosCheckout();

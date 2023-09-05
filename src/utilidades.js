@@ -71,6 +71,46 @@ export const catalogo = [
       imagem: "product-9.jpg",
       feminino: true,
     },
+    {
+      id: '10',
+      marca: "Zara",
+      nome: "Vestido de Manga Longa Branco",
+      preco: 160,
+      imagem: "product-10.jpg",
+      feminino: true,
+    },
+    {
+      id: '11',
+      marca: "Zara",
+      nome: "Vestido de Alça Branco",
+      preco: 140,
+      imagem: "product-11.jpg",
+      feminino: true,
+    },
+    {
+      id: '12',
+      marca: "Zara",
+      nome: "Sobretudo Bege",
+      preco: 200,
+      imagem: "product-12.jpg",
+      feminino: false,
+    },
+    {
+      id: '13',
+      marca: "Zara",
+      nome: "Blazer Preto Fosco",
+      preco: 170,
+      imagem: "product-13.jpg",
+      feminino: false,
+    },
+    {
+      id: '14',
+      marca: "Zara",
+      nome: "Blazer Preto Com Botões",
+      preco: 180,
+      imagem: "product-14.jpg",
+      feminino: false,
+    },
   ];
   
   export function salvarLocalStorage(chave, informacao) {
